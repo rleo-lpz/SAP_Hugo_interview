@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }} | {{ site.Title }}</title>
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body>
+  {{ $current := . }}
+  <nav class="navbar">
+    <span class="brand">{{ site.Title }}</span>
+    <ul>
+      {{ range site.Menus.main }}
+      <li><a href="{{ .URL }}"{{ if $current.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+
+  <main>
+    {{ .Content }}
+  </main>
+</body>
+</html>

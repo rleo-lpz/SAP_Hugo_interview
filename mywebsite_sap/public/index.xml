@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>My Website</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on My Website</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hello SAP team, I&amp;rsquo;m Rene Leonardo Lopez de la Torre (You can call me Leo),&lt;/li&gt;&#xA;&lt;li&gt;I&amp;rsquo;m 22 years old&lt;/li&gt;&#xA;&lt;li&gt;This is just the About page&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;about-the-project&#34;&gt;About the project&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;As Part of the SAP technical assignment, I&amp;rsquo;m creating this &amp;ldquo;About page&amp;rdquo; using Hugo&lt;/li&gt;&#xA;&lt;li&gt;I will include a detailed .txt file with all the steps that I went through in order to create this.&lt;/li&gt;&#xA;&lt;li&gt;Inside this about page, I used &amp;ldquo;#&amp;rdquo; and &amp;ldquo;-&amp;rdquo;, &amp;ldquo;#&amp;rdquo; is the equivalent of HTML header, &amp;ldquo;-&amp;rdquo; is the HTML ul and li&lt;/li&gt;&#xA;&lt;li&gt;Here I also learned about &amp;ldquo;draft&amp;rdquo;, which is a True/False that tells us if this page is ready to be published&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Blog</title>
+				<link>http://localhost:1313/blog/</link>
+				<pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/</guid>
+				<description>&lt;h2 id=&#34;steps-used-to-make-this-project&#34;&gt;Steps used to make this project&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Install Hugo on windows using &amp;ldquo;winget install Hugo.Hugo.Extended&amp;rdquo;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Verify Hugo version to see it was installed correctly &amp;ldquo;winget list Hugo&amp;rdquo;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;set &amp;ldquo;cd C:\Users\M2604113\OneDrive - QMMC\Escritorio\Leo\practice\Hugo&amp;rdquo; as the location where I will create my project&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;create a project using &amp;ldquo;hugo new site mywebsite_sap&amp;rdquo;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Go inside &amp;ldquo;mywebsite_sap&amp;rdquo; with cd&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Go inside .toml File and change the title&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Created the about page using &amp;ldquo;hugo new content about.md&amp;rdquo;, customized it, learned what &amp;ldquo;#&amp;rdquo;, &amp;ldquo;-&amp;rdquo; and &amp;ldquo;draft&amp;rdquo; means in Hugo context&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Create the Hugo server using &amp;ldquo;hugo server&amp;rdquo;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Get the localhost URL that appears on powershell, and enter it on a web browser in order to be abble to see it&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Create the layout &amp;ldquo;single.html&amp;rdquo;, here I learned that you kind of define the Hugo structure into the template by using &amp;ldquo;{{.}}&amp;rdquo;, this basically works as a place holder for your content folder page. single.html is the html structure&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Adding the CSS into static / css / style.css&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Create the rest of the webpages&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Create the index, in order to have navigation tab&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Contact</title>
+				<link>http://localhost:1313/home/</link>
+				<pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/home/</guid>
+				<description>&lt;h2 id=&#34;this-is-the-mainpage-of-the-sap-hugo-project&#34;&gt;This is the Mainpage of the SAP Hugo project&lt;/h2&gt;&#xA;&lt;p&gt;This web page consists of 4 sections&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Home (You are here)&lt;/li&gt;&#xA;&lt;li&gt;About (Information about me and this project)&lt;/li&gt;&#xA;&lt;li&gt;Blog (Steps used to build this project and where i got the information from)&lt;/li&gt;&#xA;&lt;li&gt;Projects (what I&amp;rsquo;ve done)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This project started on 09/30/2026 at 7:11 AM &amp;mdash;-&#xA;This project was completed on 09/30/2026 at 9:33 AM&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Projects</title>
+				<link>http://localhost:1313/projects/</link>
+				<pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/</guid>
+				<description>&lt;h2 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Programmer at Quanta server for META&lt;/li&gt;&#xA;&lt;li&gt;Worked for Quarzo as a fullstack developer for different clients(Borgwarner, Magna powertrain, Nordyne, Dicastal and WBTL)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;personal-projects-past-6-months&#34;&gt;Personal Projects (past 6 months)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Currently learning about Oracle Ubuntu cloud servers&lt;/li&gt;&#xA;&lt;li&gt;Currently learning Python flask, and pyspark&lt;/li&gt;&#xA;&lt;li&gt;Currenyly learning Oracle databases&lt;/li&gt;&#xA;&lt;li&gt;Built an AI model using sqlAlchemy, oLLama, Python and microsoft sql database&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
+</rss>
